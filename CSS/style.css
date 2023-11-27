@@ -1,0 +1,186 @@
+* {
+	padding: 10px;
+	margin: 0;
+	font-family: Georgia;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.banner {
+	height: 60vh;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: maroon;
+}
+
+.banner h1 {
+	color: white;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #ffd700;
+}
+
+section {
+	padding: 50px 0;
+	padding: 50px 0;
+}
+
+section h2 {
+	text-align: center;
+	padding: 20px 0;
+	color: maroon;
+	margin-bottom: 25px;
+}
+
+.about h2 {
+	color: maroon;
+}
+
+.about p {
+	color: black;
+	word-spacing: 3px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.about.service {
+	padding-bottom: 100px;
+}
+
+.service {
+	background-color: #f9f9f9;
+}
+
+.box {
+	color: #800000;
+}
+
+.box:after {
+	content: '';
+	display: block;
+	clear: both;
+
+}
+
+.box .col-4 {
+	width: 50%;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+
+.icon {
+	width: 80px;
+	height: 80px;
+	border: 1px solid;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 60px;
+	font-size: 20px;
+	margin: 0 auto;
+}
+
+footer {
+	padding: 20px 0;
+	background-color: maroon;
+	color: gold;
+	text-align: center;
+
+}
+
+body {
+	margin: 0;
+	font-family: Georgia;
+}
+
+.rekomendasi {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.rekomendasi h2 {
+	color: maroon;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+}
+
+.kategori {
+	padding-bottom: 1px;
+	background-color: #f9f9f9;
+	text-align: center;
+}
+
+.kategori h2 {
+	color: #800000;
+}
+
+.gambar {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr
+}
+
+.gambar .foto img {
+	width: 200px;
+}
+
+.foto {
+	border: 1px black;
+	margin: 7px;
+	text-align: center;
+}
+
+.foto a:hover {
+	background-color: gold;
+	color: maroon;
+}
+
+.foto a {
+	border: 1px solid #800000;
+	padding: 10px;
+	color: white;
+	background: #800000;
+	text-decoration: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.foto {
+	border: 2px solid gold;
+}
+
+.foto p {
+	color: #800000
+}
+
+.foto h5 {
+	color: #505050;
+}
